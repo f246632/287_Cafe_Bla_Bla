@@ -1,0 +1,321 @@
+/* ============================================
+   RESPONSIVE DESIGN
+   Mobile-First Approach
+   ============================================ */
+
+/* === TABLET (768px and below) === */
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        max-width: 300px;
+        height: calc(100vh - 70px);
+        background: white;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+        box-shadow: var(--shadow-lg);
+        gap: 1rem;
+        transition: right var(--transition-base);
+        overflow-y: auto;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Hero */
+    .hero {
+        background-attachment: scroll;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    /* Sections */
+    section {
+        padding: var(--spacing-lg) 0;
+    }
+
+    /* About */
+    .about-features {
+        grid-template-columns: 1fr;
+    }
+
+    /* Menu */
+    .menu-category {
+        padding: var(--spacing-sm);
+    }
+
+    /* Location */
+    .location-content {
+        grid-template-columns: 1fr;
+    }
+
+    .location-map {
+        min-height: 350px;
+    }
+
+    /* Contact */
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Reviews */
+    .reviews-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Lightbox */
+    .lightbox-prev,
+    .lightbox-next {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .lightbox-close {
+        top: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* === MOBILE (480px and below) === */
+@media (max-width: 480px) {
+    /* Typography */
+    html {
+        font-size: 14px;
+    }
+
+    /* Container */
+    .container {
+        padding: 0 1rem;
+    }
+
+    /* Navigation */
+    .nav-container {
+        padding: 0.75rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .logo-icon {
+        font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 500px;
+    }
+
+    .scroll-indicator {
+        bottom: 1rem;
+        font-size: 0.85rem;
+    }
+
+    /* Sections */
+    section {
+        padding: 3rem 0;
+    }
+
+    .section-header {
+        margin-bottom: 2rem;
+    }
+
+    /* Menu */
+    .item-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+
+    /* Feature Cards */
+    .feature-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+
+    /* Review Cards */
+    .review-card {
+        padding: 1rem;
+    }
+
+    .author-avatar {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    /* Contact Cards */
+    .contact-icon {
+        font-size: 2.5rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Lightbox */
+    .lightbox {
+        padding: 1rem;
+    }
+
+    .lightbox-prev {
+        left: 0.5rem;
+    }
+
+    .lightbox-next {
+        right: 0.5rem;
+    }
+
+    .lightbox-close {
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+}
+
+/* === LARGE DESKTOP (1400px and above) === */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .about-features {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* === EXTRA LARGE DESKTOP (1920px and above) === */
+@media (min-width: 1920px) {
+    html {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 1600px;
+    }
+}
+
+/* === LANDSCAPE ORIENTATION === */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 5rem 0;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+/* === PRINT STYLES === */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .scroll-indicator,
+    .gallery-overlay,
+    .contact-form,
+    .footer,
+    .lightbox {
+        display: none !important;
+    }
+
+    .hero {
+        height: auto;
+        background: none;
+        color: black;
+    }
+
+    section {
+        page-break-inside: avoid;
+    }
+}
+
+/* === REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* === HIGH CONTRAST MODE === */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #000000;
+        --text-dark: #000000;
+        --text-light: #000000;
+        --border-color: #000000;
+    }
+
+    .btn-primary {
+        border: 2px solid black;
+    }
+}
+
+/* === DARK MODE SUPPORT === */
+@media (prefers-color-scheme: dark) {
+    /* Optional: Add dark mode styles if desired */
+    /* Currently maintaining light theme for cafe aesthetic */
+}

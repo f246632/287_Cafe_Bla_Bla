@@ -1,0 +1,160 @@
+{
+  "menu": {
+    "coffee": {
+      "name": "Kaffee & Espresso",
+      "items": [
+        {
+          "name": "Espresso",
+          "description": "Klassischer italienischer Espresso",
+          "price": "2.50€",
+          "sizes": ["Einfach", "Doppelt"]
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Espresso mit aufgeschäumter Milch",
+          "price": "3.50€",
+          "sizes": ["Regular", "Groß"]
+        },
+        {
+          "name": "Latte Macchiato",
+          "description": "Geschichteter Milchkaffee im Glas",
+          "price": "3.80€"
+        },
+        {
+          "name": "Americano",
+          "description": "Espresso mit heißem Wasser",
+          "price": "2.80€"
+        },
+        {
+          "name": "Filterkaffee",
+          "description": "Frisch gebrühter Kaffee",
+          "price": "2.90€",
+          "refill": "Kostenlose Nachfüllung"
+        },
+        {
+          "name": "Flat White",
+          "description": "Starker Espresso mit Mikroschaum",
+          "price": "3.90€"
+        }
+      ]
+    },
+    "specialty_drinks": {
+      "name": "Spezialitäten",
+      "items": [
+        {
+          "name": "Eiskaffee",
+          "description": "Kalter Kaffee mit Vanilleeis und Sahne",
+          "price": "4.50€",
+          "seasonal": "Sommer"
+        },
+        {
+          "name": "Chai Latte",
+          "description": "Gewürzter Tee mit aufgeschäumter Milch",
+          "price": "3.80€"
+        },
+        {
+          "name": "Heiße Schokolade",
+          "description": "Cremige Schokolade mit Sahne",
+          "price": "3.50€"
+        }
+      ]
+    },
+    "tea": {
+      "name": "Tee & Kräutertee",
+      "items": [
+        {
+          "name": "Schwarztee",
+          "varieties": ["Earl Grey", "English Breakfast", "Darjeeling"],
+          "price": "2.50€"
+        },
+        {
+          "name": "Grüntee",
+          "varieties": ["Sencha", "Jasmin", "Matcha"],
+          "price": "2.80€"
+        },
+        {
+          "name": "Kräutertee",
+          "varieties": ["Pfefferminz", "Kamille", "Früchtetee"],
+          "price": "2.50€"
+        }
+      ]
+    },
+    "cold_drinks": {
+      "name": "Kaltgetränke",
+      "items": [
+        {
+          "name": "Cold Brew",
+          "description": "Kalt extrahierter Kaffee",
+          "price": "3.90€"
+        },
+        {
+          "name": "Frische Säfte",
+          "varieties": ["Orange", "Apfel", "Multivitamin"],
+          "price": "3.20€"
+        },
+        {
+          "name": "Limonade",
+          "varieties": ["Klassisch", "Zitrone", "Holunder"],
+          "price": "2.90€"
+        },
+        {
+          "name": "Softgetränke",
+          "varieties": ["Cola", "Fanta", "Sprite", "Wasser"],
+          "price": "2.50€"
+        }
+      ]
+    },
+    "food": {
+      "name": "Snacks & Kuchen",
+      "items": [
+        {
+          "name": "Hausgemachter Kuchen",
+          "description": "Täglich wechselnde Auswahl",
+          "price": "3.90€",
+          "note": "Fragen Sie nach der Tagesauswahl"
+        },
+        {
+          "name": "Croissant",
+          "varieties": ["Butter", "Schokolade", "Mandel"],
+          "price": "2.50€"
+        },
+        {
+          "name": "Muffins",
+          "varieties": ["Blaubeere", "Schokolade", "Vanille"],
+          "price": "2.90€"
+        },
+        {
+          "name": "Cookies",
+          "varieties": ["Chocolate Chip", "Hafer-Rosine"],
+          "price": "1.90€"
+        },
+        {
+          "name": "Belegte Brötchen",
+          "description": "Frisch belegt nach Wahl",
+          "price": "4.50€"
+        }
+      ]
+    }
+  },
+  "dietary_options": {
+    "vegan": "Hafermilch, Sojamilch und vegane Snacks verfügbar",
+    "lactose_free": "Laktosefreie Milch auf Anfrage",
+    "gluten_free": "Einige glutenfreie Optionen verfügbar"
+  },
+  "extras": {
+    "milk_alternatives": [
+      {"name": "Hafermilch", "price": "+0.50€"},
+      {"name": "Sojamilch", "price": "+0.50€"},
+      {"name": "Mandelmilch", "price": "+0.60€"}
+    ],
+    "syrups": [
+      {"name": "Vanille", "price": "+0.50€"},
+      {"name": "Karamell", "price": "+0.50€"},
+      {"name": "Haselnuss", "price": "+0.50€"}
+    ],
+    "toppings": [
+      {"name": "Extra Espresso Shot", "price": "+0.50€"},
+      {"name": "Sahne", "price": "+0.30€"}
+    ]
+  }
+}

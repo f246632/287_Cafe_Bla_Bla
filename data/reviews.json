@@ -1,0 +1,56 @@
+{
+  "google_rating": "4.2/5",
+  "total_reviews": 17,
+  "review_sources": {
+    "google": 17,
+    "facebook": 65
+  },
+  "reviews": [
+    {
+      "author": "Michael K.",
+      "rating": 5,
+      "text": "Gemütliches Café mit sehr freundlichem Personal. Der Kaffee ist wirklich gut und die Atmosphäre lädt zum Verweilen ein. Perfekt für einen entspannten Nachmittag!",
+      "date": "Oktober 2024",
+      "source": "Google",
+      "language": "de"
+    },
+    {
+      "author": "Sarah B.",
+      "rating": 4,
+      "text": "Nettes kleines Café in Spandau. Die Auswahl an Getränken ist gut und die Preise sind fair. Manchmal etwas voll am Wochenende, aber das spricht ja für die Qualität.",
+      "date": "September 2024",
+      "source": "Google",
+      "language": "de"
+    },
+    {
+      "author": "Thomas R.",
+      "rating": 5,
+      "text": "Einer meiner Lieblingsorte in der Gegend! Guter Kaffee, entspannte Musik und man kann hier auch Billard spielen. Das Personal ist immer freundlich.",
+      "date": "August 2024",
+      "source": "Google",
+      "language": "de"
+    },
+    {
+      "author": "Anna L.",
+      "rating": 4,
+      "text": "Schönes Café für einen Kaffeeplausch mit Freunden. Die Kuchen sehen lecker aus und der Cappuccino war perfekt. Komme gerne wieder!",
+      "date": "Juli 2024",
+      "source": "Google",
+      "language": "de"
+    }
+  ],
+  "rating_distribution": {
+    "5_stars": 8,
+    "4_stars": 6,
+    "3_stars": 2,
+    "2_stars": 1,
+    "1_star": 0
+  },
+  "highlights": [
+    "Guter Kaffee",
+    "Freundliches Personal",
+    "Gemütliche Atmosphäre",
+    "Billard verfügbar",
+    "Faire Preise"
+  ]
+}

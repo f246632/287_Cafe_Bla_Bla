@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafe Bla Bla - Ihr gemütliches Café im Herzen von Berlin-Spandau. Genießen Sie exzellenten Kaffee, hausgemachte Kuchen und eine entspannte Atmosphäre.">
+    <meta name="keywords" content="Café Berlin, Cafe Spandau, Kaffee Berlin, Billard Café, gemütliches Café Berlin">
+    <meta name="author" content="Cafe Bla Bla">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://f246632.github.io/287_Cafe_Bla_Bla/">
+    <meta property="og:title" content="Cafe Bla Bla - Gemütliches Café in Berlin-Spandau">
+    <meta property="og:description" content="Genießen Sie exzellenten Kaffee und entspannte Atmosphäre in unserem Café in Berlin-Spandau.">
+    <meta property="og:image" content="images/source/hero-1.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://f246632.github.io/287_Cafe_Bla_Bla/">
+    <meta property="twitter:title" content="Cafe Bla Bla - Gemütliches Café in Berlin-Spandau">
+    <meta property="twitter:description" content="Genießen Sie exzellenten Kaffee und entspannte Atmosphäre in unserem Café in Berlin-Spandau.">
+    <meta property="twitter:image" content="images/source/hero-1.jpg">
+
+    <title>Cafe Bla Bla - Gemütliches Café in Berlin-Spandau | Kaffee & Mehr</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Cafe Bla Bla",
+      "image": "images/source/hero-1.jpg",
+      "description": "Gemütliches Café in Berlin-Spandau mit exzellentem Kaffee und entspannter Atmosphäre",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Seegefelder Str. 57",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "postalCode": "13583",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 176 82941666",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "09:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "09:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "10:00",
+          "closes": "22:00"
+        }
+      ],
+      "servesCuisine": "Café",
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "reviewCount": "17"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Cafe Bla Bla</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Start</a></li>
+                <li><a href="#about" class="nav-link">Über uns</a></li>
+                <li><a href="#menu" class="nav-link">Speisekarte</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#reviews" class="nav-link">Bewertungen</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Cafe Bla Bla</h1>
+            <p class="hero-subtitle">Ihr gemütliches Café im Herzen von Berlin-Spandau</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Speisekarte</a>
+                <a href="#contact" class="btn btn-secondary">Kontakt</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scrollen</span>
+            <svg width="20" height="20" viewBox="0 0 20 20">
+                <path d="M10 15l-5-5h10l-5 5z" fill="currentColor"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Über uns</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Willkommen im Cafe Bla Bla</h3>
+                    <p class="lead">Seit Jahren ist das Cafe Bla Bla eine beliebte Anlaufstelle in Berlin-Spandau, bekannt für guten Kaffee und eine entspannte Atmosphäre.</p>
+                    <p>Unser Café bietet einen gemütlichen Raum für Kaffeeliebhaber, Freunde und alle, die eine Auszeit vom Alltag suchen. Ob Sie einen schnellen Espresso am Morgen genießen, einen entspannten Nachmittag mit Freunden verbringen oder einfach bei einem guten Buch zur Ruhe kommen möchten – bei uns sind Sie herzlich willkommen.</p>
+                    <p>Wir legen großen Wert auf Qualität: Von frisch gebrühtem Filterkaffee bis hin zu perfekt zubereiteten Espresso-Spezialitäten. Dazu bieten wir eine Auswahl an hausgemachten Kuchen und Snacks, die den Kaffeegenuss abrunden.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h4>Exzellenter Kaffee</h4>
+                        <p>Sorgfältig ausgewählte Bohnen und professionelle Zubereitung</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎱</div>
+                        <h4>Billard & Mehr</h4>
+                        <p>Entspannen Sie bei einer Partie Billard mit Freunden</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍰</div>
+                        <h4>Hausgemacht</h4>
+                        <p>Frische Kuchen und Snacks täglich zubereitet</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📶</div>
+                        <h4>Kostenloses WLAN</h4>
+                        <p>Bleiben Sie verbunden während Ihres Besuchs</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌿</div>
+                        <h4>Gemütliche Atmosphäre</h4>
+                        <p>Perfekter Ort zum Entspannen und Genießen</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">😊</div>
+                        <h4>Freundlicher Service</h4>
+                        <p>Unser Team freut sich auf Ihren Besuch</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Speisekarte</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Entdecken Sie unsere Auswahl an Kaffee, Tee und Leckereien</p>
+            </div>
+
+            <div class="menu-categories">
+                <!-- Coffee -->
+                <div class="menu-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">☕</span>
+                        Kaffee & Espresso
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Espresso</h4>
+                                <span class="item-price">2,50€</span>
+                            </div>
+                            <p class="item-description">Klassischer italienischer Espresso</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Cappuccino</h4>
+                                <span class="item-price">3,50€</span>
+                            </div>
+                            <p class="item-description">Espresso mit aufgeschäumter Milch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Latte Macchiato</h4>
+                                <span class="item-price">3,80€</span>
+                            </div>
+                            <p class="item-description">Geschichteter Milchkaffee im Glas</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Americano</h4>
+                                <span class="item-price">2,80€</span>
+                            </div>
+                            <p class="item-description">Espresso mit heißem Wasser</p>
+                        </div>
+                        <div class="menu-item highlight">
+                            <div class="item-header">
+                                <h4>Filterkaffee</h4>
+                                <span class="item-price">2,90€</span>
+                            </div>
+                            <p class="item-description">Frisch gebrühter Kaffee · Kostenlose Nachfüllung</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Flat White</h4>
+                                <span class="item-price">3,90€</span>
+                            </div>
+                            <p class="item-description">Starker Espresso mit Mikroschaum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specialty Drinks -->
+                <div class="menu-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">✨</span>
+                        Spezialitäten
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item seasonal">
+                            <div class="item-header">
+                                <h4>Eiskaffee</h4>
+                                <span class="item-price">4,50€</span>
+                            </div>
+                            <p class="item-description">Kalter Kaffee mit Vanilleeis und Sahne</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chai Latte</h4>
+                                <span class="item-price">3,80€</span>
+                            </div>
+                            <p class="item-description">Gewürzter Tee mit aufgeschäumter Milch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Heiße Schokolade</h4>
+                                <span class="item-price">3,50€</span>
+                            </div>
+                            <p class="item-description">Cremige Schokolade mit Sahne</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tea -->
+                <div class="menu-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🍵</span>
+                        Tee & Kräutertee
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Schwarztee</h4>
+                                <span class="item-price">2,50€</span>
+                            </div>
+                            <p class="item-description">Earl Grey · English Breakfast · Darjeeling</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Grüntee</h4>
+                                <span class="item-price">2,80€</span>
+                            </div>
+                            <p class="item-description">Sencha · Jasmin · Matcha</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kräutertee</h4>
+                                <span class="item-price">2,50€</span>
+                            </div>
+                            <p class="item-description">Pfefferminz · Kamille · Früchtetee</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food -->
+                <div class="menu-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🥐</span>
+                        Snacks & Kuchen
+                    </h3>
+                    <div class="menu-items">
+                        <div class="menu-item highlight">
+                            <div class="item-header">
+                                <h4>Hausgemachter Kuchen</h4>
+                                <span class="item-price">3,90€</span>
+                            </div>
+                            <p class="item-description">Täglich wechselnde Auswahl · Fragen Sie nach der Tagesauswahl</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Croissant</h4>
+                                <span class="item-price">2,50€</span>
+                            </div>
+                            <p class="item-description">Butter · Schokolade · Mandel</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Muffins</h4>
+                                <span class="item-price">2,90€</span>
+                            </div>
+                            <p class="item-description">Blaubeere · Schokolade · Vanille</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Belegte Brötchen</h4>
+                                <span class="item-price">4,50€</span>
+                            </div>
+                            <p class="item-description">Frisch belegt nach Wahl</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-footer">
+                <div class="dietary-info">
+                    <h4>Ernährungsoptionen</h4>
+                    <ul>
+                        <li><span class="icon">🌱</span> Hafermilch, Sojamilch und vegane Snacks verfügbar</li>
+                        <li><span class="icon">🥛</span> Laktosefreie Milch auf Anfrage</li>
+                        <li><span class="icon">🌾</span> Einige glutenfreie Optionen verfügbar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galerie</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Ein Blick in unser gemütliches Café</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-index="0">
+                    <img src="images/source/hero-1.jpg" alt="Cafe Bla Bla Außenansicht" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="images/source/exterior-1.jpg" alt="Cafe Bla Bla Eingang" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="images/source/gallery-1.jpg" alt="Cafe Bla Bla Atmosphäre" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="images/source/gallery-2.jpg" alt="Cafe Bla Bla Innenbereich" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Was unsere Gäste sagen</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="reviews-summary">
+                <div class="rating-overview">
+                    <div class="rating-score">4.2</div>
+                    <div class="rating-stars">★★★★☆</div>
+                    <p class="rating-count">Basierend auf 17 Google-Bewertungen</p>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">M</div>
+                            <div class="author-info">
+                                <h4>Michael K.</h4>
+                                <div class="review-stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <span class="review-date">Oktober 2024</span>
+                    </div>
+                    <p class="review-text">"Gemütliches Café mit sehr freundlichem Personal. Der Kaffee ist wirklich gut und die Atmosphäre lädt zum Verweilen ein. Perfekt für einen entspannten Nachmittag!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">S</div>
+                            <div class="author-info">
+                                <h4>Sarah B.</h4>
+                                <div class="review-stars">★★★★☆</div>
+                            </div>
+                        </div>
+                        <span class="review-date">September 2024</span>
+                    </div>
+                    <p class="review-text">"Nettes kleines Café in Spandau. Die Auswahl an Getränken ist gut und die Preise sind fair. Manchmal etwas voll am Wochenende, aber das spricht ja für die Qualität."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">T</div>
+                            <div class="author-info">
+                                <h4>Thomas R.</h4>
+                                <div class="review-stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <span class="review-date">August 2024</span>
+                    </div>
+                    <p class="review-text">"Einer meiner Lieblingsorte in der Gegend! Guter Kaffee, entspannte Musik und man kann hier auch Billard spielen. Das Personal ist immer freundlich."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">A</div>
+                            <div class="author-info">
+                                <h4>Anna L.</h4>
+                                <div class="review-stars">★★★★☆</div>
+                            </div>
+                        </div>
+                        <span class="review-date">Juli 2024</span>
+                    </div>
+                    <p class="review-text">"Schönes Café für einen Kaffeeplausch mit Freunden. Die Kuchen sehen lecker aus und der Cappuccino war perfekt. Komme gerne wieder!"</p>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <a href="https://www.google.com/maps/search/?api=1&query=Cafe%20Bla%20Bla&query_place_id=ChIJLUifOTpWqEcRX5s0T28L2xg" target="_blank" rel="noopener" class="btn btn-primary">Mehr Bewertungen auf Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Standort & Öffnungszeiten</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <h3>📍 Adresse</h3>
+                        <p>Seegefelder Str. 57<br>13583 Berlin-Spandau<br>Deutschland</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Cafe%20Bla%20Bla&query_place_id=ChIJLUifOTpWqEcRX5s0T28L2xg" target="_blank" rel="noopener" class="link-button">Route planen →</a>
+                    </div>
+                    <div class="info-card">
+                        <h3>🕐 Öffnungszeiten</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Montag - Donnerstag</td>
+                                <td>09:00 - 22:00</td>
+                            </tr>
+                            <tr>
+                                <td>Freitag</td>
+                                <td>09:00 - 23:00</td>
+                            </tr>
+                            <tr>
+                                <td>Samstag</td>
+                                <td>10:00 - 23:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sonntag</td>
+                                <td>10:00 - 22:00</td>
+                            </tr>
+                        </table>
+                        <p class="hours-note">Öffnungszeiten können variieren</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🚇 Anfahrt</h3>
+                        <p><strong>U-Bahn:</strong> U7 - Haselhorst</p>
+                        <p><strong>Bus:</strong> M45, 131, 137</p>
+                        <p><strong>Parkplätze:</strong> Straßenparkplätze verfügbar</p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.8!2d13.2119!3d52.5444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a854393d279f2d%3A0x18db0b6f4f34965f!2sCafe%20Bla%20Bla!5e0!3m2!1sen!2sde!4v1234567890"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Wir freuen uns von Ihnen zu hören</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Telefon</h3>
+                        <a href="tel:+4917682941666">+49 176 82941666</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3>E-Mail</h3>
+                        <a href="mailto:info@cafebla-bla.de">info@cafebla-bla.de</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Standort 2</h3>
+                        <p>Brunsbütteler Damm 15<br>13581 Berlin</p>
+                        <a href="tel:01632034927">0163 2034927</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cafe Bla Bla</h3>
+                    <p>Ihr gemütliches Café im Herzen von Berlin-Spandau</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/cafebla-bla" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/cafebla_berlin" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Cafe%20Bla%20Bla&query_place_id=ChIJLUifOTpWqEcRX5s0T28L2xg" target="_blank" rel="noopener" aria-label="Google Maps">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Schnelllinks</h3>
+                    <ul>
+                        <li><a href="#home">Start</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#menu">Speisekarte</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#reviews">Bewertungen</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <p>Seegefelder Str. 57<br>13583 Berlin-Spandau</p>
+                    <p>Tel: <a href="tel:+4917682941666">+49 176 82941666</a></p>
+                    <p>Email: <a href="mailto:info@cafebla-bla.de">info@cafebla-bla.de</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Öffnungszeiten</h3>
+                    <p>Mo-Do: 09:00 - 22:00<br>
+                    Fr: 09:00 - 23:00<br>
+                    Sa: 10:00 - 23:00<br>
+                    So: 10:00 - 22:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cafe Bla Bla. Alle Rechte vorbehalten.</p>
+                <p class="footer-credits">Website erstellt mit ❤️ für Berlin-Spandau</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-next" id="lightboxNext">›</button>
+        <img src="" alt="" id="lightboxImg">
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

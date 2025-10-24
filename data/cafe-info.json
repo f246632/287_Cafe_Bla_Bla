@@ -1,0 +1,65 @@
+{
+  "name": "Cafe Bla Bla",
+  "tagline": "Ihr gemütliches Café im Herzen von Berlin-Spandau",
+  "description": "Cafe Bla Bla ist eine beliebte Anlaufstelle in Berlin-Spandau, bekannt für guten Kaffee und entspannte Atmosphäre. Unser Café bietet einen gemütlichen Raum für Kaffeeliebhaber, Freunde und alle, die eine Auszeit vom Alltag suchen.",
+  "contact": {
+    "address": {
+      "street": "Seegefelder Str. 57",
+      "city": "Berlin",
+      "postal_code": "13583",
+      "country": "Deutschland",
+      "district": "Spandau"
+    },
+    "phone": "+49 176 82941666",
+    "phone_display": "+49 176 82941666",
+    "email": "info@cafebla-bla.de",
+    "alternative_location": {
+      "name": "Cafe Bla Bla 2",
+      "street": "Brunsbütteler Damm 15",
+      "postal_code": "13581",
+      "phone": "0163 2034927"
+    }
+  },
+  "hours": {
+    "monday": "09:00 - 22:00",
+    "tuesday": "09:00 - 22:00",
+    "wednesday": "09:00 - 22:00",
+    "thursday": "09:00 - 22:00",
+    "friday": "09:00 - 23:00",
+    "saturday": "10:00 - 23:00",
+    "sunday": "10:00 - 22:00",
+    "note": "Öffnungszeiten können variieren"
+  },
+  "features": [
+    "Guter Kaffee",
+    "Gemütliche Atmosphäre",
+    "Freundlicher Service",
+    "Billard verfügbar",
+    "Innen- und Außenbereich",
+    "Kostenloses WLAN",
+    "Snacks und Getränke"
+  ],
+  "specialties": [
+    "Frisch gebrühter Filterkaffee",
+    "Italienischer Espresso",
+    "Hausgemachte Kuchen",
+    "Verschiedene Teesorten",
+    "Erfrischende Kaltgetränke"
+  ],
+  "social_media": {
+    "facebook": "https://www.facebook.com/cafebla-bla",
+    "instagram": "@cafebla_berlin",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Cafe%20Bla%20Bla&query_place_id=ChIJLUifOTpWqEcRX5s0T28L2xg"
+  },
+  "location": {
+    "coordinates": {
+      "lat": 52.5444,
+      "lng": 13.2119
+    },
+    "transport": {
+      "ubahn": "U7 - Haselhorst",
+      "bus": ["M45", "131", "137"],
+      "parking": "Straßenparkplätze verfügbar"
+    }
+  }
+}
